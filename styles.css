@@ -1,0 +1,40 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Style the parallax section */
+.parallax {
+    background-image: url('testimg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000vh;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style the content section */
+.content {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Style the text within the parallax section */
+.parallax-content {
+    background-color: rgba(50, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 400px;
+    
+}
+
+/* Style other content as needed */
